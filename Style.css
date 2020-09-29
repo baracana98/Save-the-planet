@@ -1,0 +1,394 @@
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.background {
+    background-image: url("C:Users/Ana/Desktop/Save the planet1/background.png");
+    height: 100%;
+    width: 95%;
+    display: block;
+    text-align-last: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+#sidebar {
+    background-color: white;
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+
+#sidebar p {
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 10%;
+    padding-left: 0;
+    right: 45%;
+    width: 100%;
+    top: -20%;
+}
+
+.menuItems {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 55%;
+}
+
+.menuItem {
+    float: left;
+}
+
+.menuItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.menuItem a:hover {
+    background-color: #55bba6;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.dropbtn {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 55%;
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropbtn a :hover {
+    background-color: #55bba6;
+    font-style: oblique;
+}
+
+.verticalmenu {
+    background-color: rgba(0, 0, 0, 0.7);
+    list-style-type: none;
+    text-align: center;
+    display: none;
+    position: absolute;
+    min-width: 30%;
+    z-index: 1;
+    padding-left: 0;
+}
+
+.verticalmenu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.verticalmenu a:hover {
+    background-color: black;
+}
+
+.dropbtn:hover .verticalmenu {
+    display: block;
+}
+
+.paragraph {
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    right: 68%;
+    top: 22%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+    position: absolute;
+    font-size: 130px;
+    color: white;
+    right: 50%;
+    top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 40%;
+    right: 61%;
+    width: 20%;
+    text-align-last: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.observation {
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    right: 62%;
+    top: 51%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1%;
+}
+
+.buttonfind {
+    position: absolute;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #55bba6;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border: none;
+    top: 70%;
+    right: 70%;
+}
+
+.buttonplay {
+    position: absolute;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border: none;
+    top: 70%;
+    right: 60%;
+}
+
+img {
+    position: absolute;
+    top: 7%;
+    right: 75%;
+}
+
+.border {
+    position: absolute;
+    color: #55bba6;
+    right: 80%;
+    top: 21%;
+    font-size: 20px;
+}
+
+.subtitle {
+    position: absolute;
+    font-size: 36px;
+    right: 69%;
+    top: 100%;
+    color: #55bba6;
+    font-family: serif;
+}
+
+.paragraph1 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    right: 68%;
+    top: 110%;
+    width: 13%;
+    text-align-last: left;
+}
+
+.paragraph2 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    right: 47%;
+    top: 110%;
+    width: 13%;
+    text-align-last: left;
+}
+
+.paragraph3 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    right: 26%;
+    top: 110%;
+    width: 13%;
+    text-align-last: left;
+}
+
+#footer {
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+
+.img1 {
+    position: absolute;
+    top: 130%;
+    right: 42%;
+    left: 20%;
+    width: 20%;
+}
+
+.img2 {
+    position: absolute;
+    top: 130%;
+    right: 45%;
+    left: 20%;
+    width: 20%;
+}
+
+.img6 {
+    position: absolute;
+    top: 130%;
+    right: 45%;
+    left: 20%;
+    width: 20%;
+}
+
+.img3 {
+    position: absolute;
+    top: 130%;
+    left: 40.5%;
+    width: 30%;
+}
+
+.img4 {
+    position: absolute;
+    top: 164%;
+    left: 40.5%;
+    width: 15%;
+    width: 14.7%;
+    height: 17%;
+}
+
+.img5 {
+    position: absolute;
+    top: 164%;
+    left: 55.5%;
+    width: 15%;
+    height: 17%;
+}
+
+.footertitleimage {
+    position: absolute;
+    top: 137%;
+    left: 23%;
+    width: 22%;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraphimage {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    top: 143%;
+    left: 23%;
+    width: 13%;
+    text-align-last: left;
+    font-style: normal;
+}
+
+.footerbuttonfind {
+    position: absolute;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #55bba6;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border: none;
+    top: 165%;
+    left: 23%;
+    width: 13%;
+}
+
+.footerborder {
+    position: absolute;
+    color: #55bba6;
+    top: 137%;
+    left: 23%;
+    font-size: 20px;
+}
+
+.meniuPicture {
+    display: none;
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+    .meniuPicture {
+        display: inline-grid;
+        position: relative;
+        margin-right: 51px;
+    }
+    .meniuPicture :hover+.menuItems {
+        display: table;
+    }
+    .menuContainer {
+        display: none;
+    }
+    #sidebar {
+        background-color: white;
+        width: 2%;
+        height: 100%;
+        float: left;
+    }
+    #sidebar p {
+        position: absolute;
+        transform: rotate(-90deg);
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 10%;
+        padding-left: 0;
+        right: 45%;
+        width: 100%;
+        top: -10%;
+        left: -55%;
+    }
+    .paragraph {
+        position: absolute;
+        font-size: 16px;
+        color: white;
+        right: 58%;
+        top: 26%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .border {
+        position: absolute;
+        color: #55bba6;
+        right: 85%;
+        top: 25%;
+        font-size: 20px;
+    }
+}
