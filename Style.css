@@ -7,7 +7,7 @@ html {
 }
 
 .background {
-    background-image: url("C:Users/Ana/Desktop/Save the planet1/background.png");
+    background-image: url("C:Users/Ana/Desktop/Savetheplanet1/background.png");
     height: 100%;
     width: 95%;
     display: block;
@@ -354,7 +354,7 @@ img {
     .meniuPicture :hover+.menuItems {
         display: table;
     }
-    .menuContainer {
+    .menu {
         display: none;
     }
     #sidebar {
